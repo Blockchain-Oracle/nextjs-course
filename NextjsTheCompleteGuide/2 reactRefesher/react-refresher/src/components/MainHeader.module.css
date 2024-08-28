@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    color: #282c34;
+    border-bottom: 1px solid gray;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    color: wheat;
+}
+
+.addPost {
+    background-color: burlywood;
+    color: #282c34;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.addPost:hover {
+    background-color: rgba(222, 184, 135, 0.644);
+    color: #282c34;
+}
+
+.addPost i {
+    font-size: 1.2rem;
+}
